@@ -169,9 +169,9 @@ export const Home = () => {
         </motion.div>
 
         <Reveal delay={0.2} width="100%">
-          <h1 className="text-5xl md:text-7xl font-display font-semibold tracking-tight leading-tight mb-6 mt-12 md:mt-0">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-display font-semibold tracking-tight leading-tight mb-6 mt-12 md:mt-0">
             Smart Calculations.
-            <br className="hidden md:block" />
+            <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-500">
               Instant Results.
             </span>

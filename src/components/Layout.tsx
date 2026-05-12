@@ -5,7 +5,7 @@ import { Footer } from "./Footer";
 
 export const Layout = () => {
   return (
-    <div className="min-h-screen flex flex-col pt-20 relative">
+    <div className="min-h-screen flex flex-col pt-20 relative overflow-x-clip">
       {/* Global glow behind everything */}
       <div className="glow-background w-[800px] h-[800px] top-[-200px] left-1/2 -translate-x-1/2 opacity-40 mix-blend-screen"></div>
 
